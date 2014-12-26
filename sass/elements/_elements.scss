@@ -1,0 +1,37 @@
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+	@extend .img-responsive;
+	
+}
+
+figure {
+	margin: 0;
+}
+
+@import "tables";
+
+
+/* show external links differently */
+a[href^="http://"]:not([href*="http://localhost/development/wp/wplove/"]):after{ 
+   
+    width: 16px;
+    height: 16px;
+    padding-right: 1.2em;
+	 content: "\f08e";
+}
+
+.gallery-item {
+	@extend .img-thumbnail;
+	margin-top: 2px;
+	padding: inherit;
+}

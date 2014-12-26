@@ -1,0 +1,27 @@
+.site-content {
+	@extend .container;
+}
+.site-footer {
+	clear: both;
+	width: $size__site-main;
+	@extend .container;
+	background: $color__secondary_bg;
+	color: $color__secondary_text;
+}
+
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+/*--------------------------------------------------------------
+10.1 Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+10.2 Asides
+--------------------------------------------------------------*/
+@import "primary/asides";
+
+/*--------------------------------------------------------------
+10.3 Comments
+--------------------------------------------------------------*/
+@import "primary/comments";

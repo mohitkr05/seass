@@ -1,0 +1,9 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+	@extend .table;
+}
+
+th {
+	font-weight: bold;
+}
