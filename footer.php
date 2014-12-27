@@ -12,7 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'seass' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'seass' ), 'WordPress' ); ?></a>
+			<i class="fa f-2x fa-cirle"></i><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'seass' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'seass' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'seass' ), 'seass', '<a href="http://kumarmohit.com" rel="designer">Mohit Kumar</a>' ); ?>
 		</div><!-- .site-info -->

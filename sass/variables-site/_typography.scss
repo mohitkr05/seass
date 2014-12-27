@@ -2,11 +2,21 @@
   font-family: 'Open Sans Condensed';
   font-style: normal;
   font-weight: 300;
-  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url('fonts/open_sans.woff.woff') format('woff');
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url('fonts/open_sans.woff') format('woff');
 }
 
+@font-face {
+ font-family: 'Laila';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Laila'), local('Laila-Regular'), url('fonts/laila.woff') format('woff');
+}
+
+
 $font__main: 'Open Sans Condensed';
+$font__secondary : 'Laila' ;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.8;
 $font__line-height-pre: 1.6;
+$font__base_size:1.6;

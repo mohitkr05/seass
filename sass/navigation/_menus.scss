@@ -1,6 +1,29 @@
 .navbar {
-	background: $brand-primary;
-	a{
-		color:bg_a;
-	}
+	background: $bg_b;
+}
+
+.navbar-default .navbar-brand {
+    color:  $bg_a;
+	font-size: 2em;
+	font-family: $font__secondary;
+	 
+}
+.navbar-default .navbar-nav {
+	
+	li {
+		a{
+			color: $bg_a;
+		}
+		a:hover, a:active{
+			background-color:  $bg_a;
+			color: $bg_b;
+		}
+		} 
+}
+.dropdown-menu {
+  background:$bg_b;
+	a:hover {
+			background-color:  $bg_a;
+			color: $bg_b;
+		}
 }

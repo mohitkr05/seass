@@ -101,8 +101,6 @@ add_action( 'widgets_init', 'seass_widgets_init' );
  */
 function seass_scripts() {
 	wp_enqueue_style( 'seass-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' );
-
 	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '20120206', true );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array(), '20120206', true );
 

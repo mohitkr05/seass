@@ -27,7 +27,9 @@ a[href^="http://"]:not([href*="http://localhost/development/wp/wplove/"]):after{
     width: 16px;
     height: 16px;
     padding-right: 1.2em;
-	 content: "\f08e";
+	@extend .fa; 
+
+	
 }
 
 .gallery-item {
